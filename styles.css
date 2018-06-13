@@ -1,0 +1,23 @@
+/* style sheet for Answers carpet */
+
+body {
+	background-color: rgb(240,240,240);
+
+}
+
+div {
+	font-family: 'Roboto', sans-serif;
+	margin: 5%;
+}
+}
+
+a {
+	margin: 4%;
+}
+
+footer {
+	text-align: center;
+	margin:5%;
+	padding:5%;
+	background-color: white;
+}

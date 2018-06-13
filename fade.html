@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+
+$(document).ready(function(){
+	$('p').hide(function (){
+		$("button").click(function(){
+           $("distance").fadeIn(2000, function() {$("time").fadeIn(5000,function(){
+        	    $("firstTitle").fadeIn(5000);});
+            }); // distance  end
+        }); // buttom  end
+    });    
+});
+
+</script>
+
+</head>
+<body>
+
+<button>Show</button><br><br>
+
+<p id=’distance’>A long, long time ago</p>
+<p id=’time’>in a galaxy far far away...</p>
+<p id=’firstTitle’><b>STAR</b></p>
+<p id=’secondTitle’><b>WARS</b></p>
+
+
+</body>
+</html>
